@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ImportPP_Title">Nhập tệp tin PowerPoint</sys:String>
+    <sys:String x:Key="ImportPP_Options">Tùy chọn</sys:String>
+    <sys:String x:Key="ImportPP_ToBackground">Nhập slide như ảnh nền</sys:String>
+    <sys:String x:Key="ImportPP_ToObject">Xử lý các đối tượng trong slide</sys:String>
+    <sys:String x:Key="ImportPP_PageSelected">Số slide được chọn: {0}/{1}</sys:String>
+    <sys:String x:Key="ImportPP_SelectAll">Chọn tất cả</sys:String>
+    <sys:String x:Key="ImportPP_DeselectAll">Bỏ chọn tất cả</sys:String>
+    <sys:String x:Key="ImportPP_OK">Đồng ý</sys:String>
+    <sys:String x:Key="ImportPP_Cancel">Hủy bỏ</sys:String>
+    <sys:String x:Key="ImportPP_OpeningTitle">Đang mở</sys:String>
+    <sys:String x:Key="ImportPP_NotifyOffice">Để sử dụng tính năng này, bạn cần cài phiên bản office 2007 trở lên</sys:String>
+    <sys:String x:Key="ImportPP_NotifyOfficeTitle">Thông báo</sys:String>
+</ResourceDictionary>

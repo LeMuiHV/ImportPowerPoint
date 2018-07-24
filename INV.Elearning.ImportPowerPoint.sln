@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INV.Elearning.ImportPowerPoint", "INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint.csproj", "{A996950B-D548-4A9A-AB43-26212CB56432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INV.Elearning.DesignControl", "INV.Elearning.DesignControl\INV.Elearning.DesignControl\INV.Elearning.DesignControl.csproj", "{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Elearning 2018", "C:\Users\MuiLV\Downloads\Avina-Beta\Elearning 2018.exe", "{4CA424C4-A098-4267-A265-9A8F10465FCC}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\MuiLV\Downloads\Avina-Beta\Elearning 2018.exe
+		RemoteMachine = LEMUI-PC
+		StartingDirectory = C:\Users\MuiLV\Downloads\Avina-Beta
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A996950B-D548-4A9A-AB43-26212CB56432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A996950B-D548-4A9A-AB43-26212CB56432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A996950B-D548-4A9A-AB43-26212CB56432}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A996950B-D548-4A9A-AB43-26212CB56432}.Debug|x86.Build.0 = Debug|Any CPU
+		{A996950B-D548-4A9A-AB43-26212CB56432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A996950B-D548-4A9A-AB43-26212CB56432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A996950B-D548-4A9A-AB43-26212CB56432}.Release|x86.ActiveCfg = Release|Any CPU
+		{A996950B-D548-4A9A-AB43-26212CB56432}.Release|x86.Build.0 = Release|Any CPU
+		{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}.Debug|x86.Build.0 = Debug|Any CPU
+		{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}.Release|x86.ActiveCfg = Release|Any CPU
+		{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}.Release|x86.Build.0 = Release|Any CPU
+		{4CA424C4-A098-4267-A265-9A8F10465FCC}.Debug|Any CPU.ActiveCfg = Release|x86
+		{4CA424C4-A098-4267-A265-9A8F10465FCC}.Debug|x86.ActiveCfg = Release|x86
+		{4CA424C4-A098-4267-A265-9A8F10465FCC}.Release|Any CPU.ActiveCfg = Release|x86
+		{4CA424C4-A098-4267-A265-9A8F10465FCC}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA52BF2D-FDEB-4E06-9F29-9AF453812F42}
+	EndGlobalSection
+EndGlobal

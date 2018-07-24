@@ -1,0 +1,240 @@
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csprojResolveAssemblyReference.cache
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\ThemeFontWindow.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\DesignTabControl.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\SlideMasterTabControl.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\TreeViewSlideMaster.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\GridTreeView.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\HeaderAndFootersWindow.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\LayoutDropDownButton.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\LayoutGallery.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\LayoutInRibbonGallery.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\MasterLayoutConfig.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\PlaceHolderButton.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\RenameWindow.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\SlideMasterTreeView.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\SplitButtonNewSlide.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\ThemeColorWindow.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\ThemeFontWindow.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\TreeViewMaster.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl_MarkupCompile.cache
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl_MarkupCompile.lref
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DesignControl.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DesignControl.pdb
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearing.Controls.Shapes.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Charts.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Controls.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Controls.Geometries.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Core.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.EOPC.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.ImageProcess.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Resources.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Text.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Timeline.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.VideoElementControl.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\Microsoft.Expression.Interactions.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\System.Windows.Interactivity.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.VideoEditor.exe
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\MediaInfoNETAnyCPU.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.ScreenRecord.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.WebcamRecorder.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.log4net.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.PreView.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\CoreAudioApi.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DirectShowNet.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\ElearningTools.DirectShowNET.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.VideoElementControl.pdb
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Core.pdb
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.EOPC.pdb
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.ImageProcess.pdb
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.ImageProcess.dll.config
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\Microsoft.Expression.Interactions.xml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\System.Windows.Interactivity.xml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.VideoEditor.pdb
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.VideoEditor.exe.config
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.ScreenRecord.pdb
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.WebcamRecorder.pdb
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\bin\Release\INV.Elearning.WebcamRecorder.dll.config
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\DesignTabControl.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Language\en-us\Language.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\SlideMasterTabControl.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\TreeViewSlideMaster.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\GridTreeView.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\HeaderAndFootersWindow.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\LayoutDropDownButton.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\LayoutGallery.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\LayoutInRibbonGallery.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\MasterLayoutConfig.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\PlaceHolderButton.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\RenameWindow.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\SlideMasterTreeView.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\SplitButtonNewSlide.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\ThemeColorWindow.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\Views\TreeViewMaster.baml
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.g.resources
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.Properties.Resources.resources
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csproj.GenerateResource.cache
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csproj.CoreCompileInputs.cache
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csproj.CopyComplete
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.dll
+F:\Project\Backup Core\DesignControl0207\INV.Elearning.DesignControl(1)\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.pdb
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DesignControl.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DesignControl.pdb
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Core.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.EOPC.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.VideoElementControl.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\Microsoft.Expression.Interactions.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\System.Windows.Interactivity.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.log4net.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.VideoEditor.exe
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\MediaInfoNETAnyCPU.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.ScreenRecord.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\CoreAudioApi.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DirectShowNet.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ElearningTools.DirectShowNET.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\Microsoft.Expression.Interactions.xml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\System.Windows.Interactivity.xml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DirectShowNet.xml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DirectShowNet.dll.config
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csprojAssemblyReference.cache
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\ThemeFontWindow.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\DesignTabControl.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\SlideMasterTabControl.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\TreeViewSlideMaster.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\GridTreeView.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\HeaderAndFootersWindow.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutDropDownButton.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutGallery.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutInRibbonGallery.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\MasterLayoutConfig.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\PlaceHolderButton.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\RenameWindow.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\SlideMasterTreeView.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\SplitButtonNewSlide.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\ThemeColorWindow.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\ThemeFontWindow.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\TreeViewMaster.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl_MarkupCompile.cache
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl_MarkupCompile.lref
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\DesignTabControl.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Language\en-us\Language.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\SlideMasterTabControl.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\TreeViewSlideMaster.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\GridTreeView.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\HeaderAndFootersWindow.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutDropDownButton.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutGallery.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutInRibbonGallery.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\MasterLayoutConfig.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\PlaceHolderButton.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\RenameWindow.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\SlideMasterTreeView.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\SplitButtonNewSlide.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\ThemeColorWindow.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\TreeViewMaster.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.g.resources
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.Properties.Resources.resources
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csproj.GenerateResource.cache
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csproj.CoreCompileInputs.cache
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csproj.CopyComplete
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.pdb
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DesignControl.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DesignControl.pdb
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.Core.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.EOPC.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.VideoElementControl.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\Microsoft.Expression.Interactions.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\System.Windows.Interactivity.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.log4net.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.VideoEditor.exe
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\MediaInfoNETAnyCPU.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.ScreenRecord.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\CoreAudioApi.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DirectShowNet.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ElearningTools.DirectShowNET.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\Microsoft.Expression.Interactions.xml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\System.Windows.Interactivity.xml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DirectShowNet.xml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\INV.Elearning.DirectShowNet.dll.config
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\de\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\en\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\es\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\fr\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\it\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ja\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\ko\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csprojAssemblyReference.cache
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\ThemeFontWindow.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\DesignTabControl.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\SlideMasterTabControl.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\TreeViewSlideMaster.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\GridTreeView.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\HeaderAndFootersWindow.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutDropDownButton.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutGallery.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutInRibbonGallery.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\MasterLayoutConfig.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\PlaceHolderButton.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\RenameWindow.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\SlideMasterTreeView.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\SplitButtonNewSlide.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\ThemeColorWindow.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\ThemeFontWindow.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\TreeViewMaster.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl_MarkupCompile.cache
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl_MarkupCompile.lref
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\DesignTabControl.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Language\en-us\Language.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\SlideMasterTabControl.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\TreeViewSlideMaster.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\GridTreeView.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\HeaderAndFootersWindow.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutDropDownButton.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutGallery.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\LayoutInRibbonGallery.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\MasterLayoutConfig.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\PlaceHolderButton.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\RenameWindow.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\SlideMasterTreeView.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\SplitButtonNewSlide.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\ThemeColorWindow.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\Views\TreeViewMaster.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.g.resources
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.Properties.Resources.resources
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csproj.GenerateResource.cache
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csproj.CoreCompileInputs.cache
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.csproj.CopyComplete
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.DesignControl\INV.Elearning.DesignControl\obj\Release\INV.Elearning.DesignControl.pdb

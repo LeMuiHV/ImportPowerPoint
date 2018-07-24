@@ -1,0 +1,22 @@
+﻿<control:ElearningWindow x:Class="INV.Elearning.DesignControl.Views.MasterLayoutConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        WindowStartupLocation="CenterScreen"
+        xmlns:control="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"
+        xmlns:local="clr-namespace:INV.Elearning.DesignControl.Views"
+        mc:Ignorable="d"
+        Title="MasterLayoutConfig" Height="250" Width="300">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+        <control:CheckBox x:Name="cbTitle" Header="Title"/>
+        <control:CheckBox x:Name="cbText" Header="Text"/>
+        <control:CheckBox x:Name="cbDate" Header="Date"/>
+        <control:CheckBox x:Name="cbSlideNumber" Header="Slide Number"/>
+        <control:CheckBox x:Name="cbFooters" Header="Footers"/>
+    </StackPanel>
+    <control:ElearningWindow.Fotters>
+        <Button x:Name="OK" Width="60" Height="32" Content="OK" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,15,0" Click="OK_Click"/>
+        <Button x:Name="Cancel" Width="60" Height="32" Content="Cancel" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,15,0" Click="Cancel_Click"/>
+    </control:ElearningWindow.Fotters>
+</control:ElearningWindow>

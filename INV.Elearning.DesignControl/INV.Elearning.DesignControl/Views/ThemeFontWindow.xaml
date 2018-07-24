@@ -1,0 +1,58 @@
+﻿<control:ElearningWindow x:Class="INV.Elearning.DesignControl.Views.ThemeFontWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:control="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"        
+        xmlns:vm="clr-namespace:INV.Elearning.Core.Helper;assembly=INV.Elearning.Core"
+        mc:Ignorable="d" UseLayoutRounding="True" ResizeMode="NoResize" WindowStartupLocation="CenterOwner"
+        Title="{DynamicResource TFW_Title}" Height="300" Width="500" InfoButtonContent="{DynamicResource TFW_InfoContent}" IsInfoButtonEnabled="True">
+    <Grid Margin="5,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="{DynamicResource TFW_HeadingFont}" Target="{Binding ElementName=cbbMajor}" VerticalAlignment="Center"/>
+        <control:ComboBox x:Name="cbbMajor" FontSize="14" Grid.Row="1"  Margin="-5,5,5,5" SelectedItem="{Binding MajorFont, Mode=OneWayToSource}" SelectedIndex="0" ItemsSource="{Binding Source={x:Static Fonts.SystemFontFamilies}, Converter={x:Static vm:Converters.FontFamiliesConverter}}" Height="28">
+            <ComboBox.ItemTemplate>
+                <ItemContainerTemplate>
+                    <TextBlock Text="{Binding}" FontFamily="{Binding}" VerticalAlignment="Center" ToolTip="{Binding}"/>
+                </ItemContainerTemplate>
+            </ComboBox.ItemTemplate>
+        </control:ComboBox>
+        <Label Content="{DynamicResource TFW_BodyFont}" Target="{Binding ElementName=cbbMinor}" Grid.Row="2" VerticalAlignment="Center"/>
+        <control:ComboBox x:Name="cbbMinor" FontSize="14" Grid.Row="3" Margin="-5,5,5,5" SelectedValue="{Binding MinorFont, Mode=OneWayToSource}" SelectedIndex="0" ItemsSource="{Binding Source={x:Static Fonts.SystemFontFamilies}, Converter={x:Static vm:Converters.FontFamiliesConverter}}" Height="28">
+            <ComboBox.ItemTemplate>
+                <ItemContainerTemplate>
+                    <TextBlock Text="{Binding}" FontFamily="{Binding}" VerticalAlignment="Center" ToolTip="{Binding}"/>
+                </ItemContainerTemplate>
+            </ComboBox.ItemTemplate>
+        </control:ComboBox>
+        <Label Grid.Column="1" Content="{DynamicResource TFW_Sample}" VerticalAlignment="Center"/>
+        <Border Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" BorderBrush="LightGray" BorderThickness="1" Padding="5" Margin="5,0">
+            <StackPanel>
+                <TextBlock VerticalAlignment="Center" Text="{DynamicResource TFW_Heading}" FontFamily="{Binding MajorFont}" FontWeight="Bold" FontSize="16"/>
+                <TextBlock VerticalAlignment="Center" Text="{DynamicResource TFW_BodyText}" FontFamily="{Binding MinorFont}" TextWrapping="WrapWithOverflow"/>
+            </StackPanel>
+        </Border>
+        <Grid Grid.Row="4" Margin="0, 5" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Target="{Binding ElementName=txtName}" Content="{DynamicResource TFW_Name}" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtName" Grid.Column="1" Padding="2,3" Margin="5,0" VerticalAlignment="Center" BorderBrush="LightGray" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+    </Grid>
+    <control:ElearningWindow.Fotters>
+        <Button Content="{DynamicResource TFW_Save}" Width="80" Height="32" HorizontalAlignment="Right" Margin="0,0,120,0" Command="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=SaveCommand}"/>
+        <Button Content="{DynamicResource TFW_Cancel}" Width="80" Height="32" HorizontalAlignment="Right" Margin="0,0,20,0" Command="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=CancelCommand}"/>
+    </control:ElearningWindow.Fotters>
+</control:ElearningWindow>

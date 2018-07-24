@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A996950B-D548-4A9A-AB43-26212CB56432}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>INV.Elearning.ImportPowerPoint</RootNamespace>
+    <AssemblyName>INV.Elearning.ImportPowerPoint</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.8.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.8.1\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearing.Controls.Shapes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LIBs\INV.Elearing.Controls.Shapes.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Animations.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\dlls\INV.Elearning.Animations.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\INV.Elearning.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Controls.Audio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\dlls\INV.Elearning.Controls.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Controls.Flash, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\dlls\INV.Elearning.Controls.Flash.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Downloads\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\Resources\dlls\INV.Elearning.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.EOPC, Version=1.0.3.8, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\INV.Elearning.EOPC.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.ImageProcess, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\dlls\INV.Elearning.ImageProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Text, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\dlls\INV.Elearning.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Trigger, Version=1.7.16.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\dlls\INV.Elearning.Trigger.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.VideoElementControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\dlls\INV.Elearning.VideoElementControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>Resources\dlls\Microsoft.Office.Interop.PowerPoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>Resources\dlls\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Converter\ImageConverter.cs" />
+    <Compile Include="Helper\AnimationHelperClass.cs" />
+    <Compile Include="Helper\ColorHelperClass.cs" />
+    <Compile Include="Helper\ObjectElementHelper.cs" />
+    <Compile Include="Helper\ShapePresentHelperClass.cs" />
+    <Compile Include="Helper\SlideHelperClass.cs" />
+    <Compile Include="Helper\ThemeHelperClass.cs" />
+    <Compile Include="Helper\UtilHelperClass.cs" />
+    <Compile Include="Helper\Utils.cs" />
+    <Compile Include="Model\PropertyChangedBase.cs" />
+    <Compile Include="Model\Slide.cs" />
+    <Compile Include="Process\ConvertPresentation.cs" />
+    <Compile Include="ViewModel\ImportPowerPointViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="View\Importing.xaml.cs">
+      <DependentUpon>Importing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImportPowerPointView.xaml.cs">
+      <DependentUpon>ImportPowerPointView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Notify.xaml.cs">
+      <DependentUpon>Notify.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NotifyOfficeVersion.xaml.cs">
+      <DependentUpon>NotifyOfficeVersion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Opening.xaml.cs">
+      <DependentUpon>Opening.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Resources\Language\en-us\Language.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Language\vn-vi\Language.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Importing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ImportPowerPointView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Notify.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\NotifyOfficeVersion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Opening.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\dlls\INV.Elearing.Controls.Shapes.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.Animations.UI.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.Controls.Audio.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.Controls.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.Controls.Flash.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.Core.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.EOPC.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.ImageProcess.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.Text.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.Trigger.dll" />
+    <Content Include="Resources\dlls\INV.Elearning.VideoElementControl.dll" />
+    <Content Include="Resources\dlls\Microsoft.Office.Interop.PowerPoint.dll" />
+    <Content Include="Resources\dlls\Office.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\INV.Elearning.DesignControl\INV.Elearning.DesignControl\INV.Elearning.DesignControl.csproj">
+      <Project>{f2f2e53e-81ab-4ca2-80cb-c6cad9a810d3}</Project>
+      <Name>INV.Elearning.DesignControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,224 @@
+﻿<control:RibbonTabItem x:Class="INV.Elearning.DesignControl.SlideMasterTabControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:INV.Elearning.DesignControl"
+             xmlns:helper="clr-namespace:INV.Elearning.DesignControl.Helper"
+             xmlns:cv="clr-namespace:INV.Elearning.DesignControl.Converters"
+             xmlns:view="clr-namespace:INV.Elearning.Core.View;assembly=INV.Elearning.Core"
+             xmlns:ds="clr-namespace:INV.Elearning.DesignControl.Views"
+             Header="{DynamicResource MASTERSLIDE_Header}"
+             xmlns:control="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"
+             xmlns:vm="clr-namespace:INV.Elearning.DesignControl.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <control:RibbonTabItem.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/INV.Elearning.DesignControl;Component/Language/en-us/Language.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <cv:IsTitleLayoutMasterConverter x:Key="IsTitleLayoutMasterConverter"/>
+            <cv:IsFooterLayoutConverter x:Key="IsFooterLayoutConverter"/>
+            <cv:IsHideBackgroundConverter x:Key="IsHideBackgroundConverter"/>
+            <cv:SelectedThemesConverter x:Key="SelectedThemesConverter"/>
+            <DataTemplate x:Key="ColorsTemplate">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="{Binding BackgroundDark2.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1" Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding BackgroundLight2.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent1.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent2.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent3.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent4.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent5.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent6.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <TextBlock Text="{Binding Name}" Margin="10,0,0,0"/>
+                </StackPanel>
+            </DataTemplate>
+
+            <DataTemplate x:Key="FontsTemplate">
+                <Border Height="60" Padding="0,7">
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Border Background="White" BorderThickness="1" BorderBrush="#FF616C81" Padding="1" Margin="8,0">
+                            <Border BorderThickness="1" BorderBrush="#FFC3C8D5" Padding="1">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                    <TextBlock Text="A" FontFamily="{Binding MajorFont}" FontSize="16"/>
+                                    <TextBlock Text="a" FontFamily="{Binding MinorFont}" FontSize="16"/>
+                                </StackPanel>
+                            </Border>
+                        </Border>
+
+                        <StackPanel Orientation="Vertical" Grid.Column="1">
+                            <TextBlock Text="{Binding Name}" FontWeight="DemiBold"/>
+                            <TextBlock Text="{Binding MajorFont}" FontFamily="{Binding MajorFont}" />
+                            <TextBlock Text="{Binding MinorFont}" FontFamily="{Binding MinorFont}" />
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+
+            <DataTemplate x:Key="placeHolderTemplate">
+                <Border Width="130" Height="40">
+                    <Grid HorizontalAlignment="Left">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding UrlIcon}" Width="32" Height="32" Margin="4" HorizontalAlignment="Left"/>
+                        <TextBlock Grid.Column="1" Text="{Binding Name}" Margin="10,0,0,0" FontWeight="DemiBold" VerticalAlignment="Center"/>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+
+            <DataTemplate x:Key="themeDesignItem">
+                <Border Height="57" Width="93" >
+                    <Border Width="85" Height="48" BorderBrush="Gray" BorderThickness="1">
+                        <ds:CanvasThemeNormalViewThumbnail  ToolTip="{Binding Name}" Data="{Binding}" Width="1024" Height="576" SelectedColor="{Binding Colors}" BackgroundStyle="{Binding BackgroundStyle}">
+                            <ds:CanvasThemeNormalViewThumbnail.RenderTransform>
+                                <ScaleTransform ScaleX="0.08" ScaleY="0.08"/>
+                            </ds:CanvasThemeNormalViewThumbnail.RenderTransform>
+                        </ds:CanvasThemeNormalViewThumbnail>
+                        <!--<Image Source="{Binding ThumbnailBitmap,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" Stretch="Fill" ToolTip="{Binding Name}"/>-->
+                    </Border>
+                </Border>
+            </DataTemplate>
+
+            <DataTemplate x:Key="backgroundItem">
+                <Border Height="57" Width="93" >
+                    <Border Width="85" Height="48" BorderBrush="Gray" BorderThickness="1">
+                        <Rectangle ToolTip="{Binding Name}" Fill="{Binding ColorStyle,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+                    </Border>
+                </Border>
+            </DataTemplate>
+            <CollectionViewSource x:Key="DefaultColorsSource" Source="{Binding Source={x:Static Application.Current}, Path=OfficeColors}"/>
+            <CollectionViewSource x:Key="DefaultFontsSource" Source="{Binding Source={x:Static Application.Current}, Path=OfficeFonts}"/>
+
+            <CollectionViewSource x:Key="ThemesCollectionSource" Source="{Binding Source={x:Static Application.Current},Path=ThemesCollection,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+            <CollectionViewSource x:Key="LocalThemesCollectionSource" Source="{Binding Source={x:Static Application.Current},Path=LocalThemesCollection,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+
+            <CompositeCollection x:Key="ThemesCollectionCombine">
+                <CollectionContainer Collection="{Binding Source={StaticResource LocalThemesCollectionSource}}"/>
+                <CollectionContainer Collection="{Binding Source={StaticResource ThemesCollectionSource}}"/>
+            </CompositeCollection>
+        </ResourceDictionary>
+    </control:RibbonTabItem.Resources>
+
+    <control:RibbonGroupBox Header="{DynamicResource MASTERSLIDE_EditMaster}">
+        <control:Button Size="Large" Header="{DynamicResource MASTERSLIDE_InsertSlideMaster}" ToolTip="{DynamicResource MASTERSLIDE_InsertSlideMaster}" LargeIcon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/InsertMasterSlide32.png" Command="{x:Static helper:CommandHelper.InsertMasterSlideCommand}"/>
+        <control:Button Size="Large" Header="{DynamicResource MASTERSLIDE_InsertLayout}" ToolTip="{DynamicResource MASTERSLIDE_InsertLayout}" LargeIcon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/InsertLayout32.png" Command="{x:Static helper:CommandHelper.InsertLayoutCommand}"/>
+        <control:Button Size="Middle" Header="{DynamicResource MASTERSLIDE_DeleteSlideMaster}" ToolTip="{DynamicResource MASTERSLIDE_DeleteSlideMaster}" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/DeleteLayout16.png" Command="{x:Static helper:CommandHelper.DeleteLayoutCommand}"/>
+        <control:Button Size="Middle" Header="{DynamicResource MASTERSLIDE_RenameSlideMaster}" ToolTip="{DynamicResource MASTERSLIDE_RenameSlideMaster}" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/RenameLayout16.png" Command="{x:Static helper:CommandHelper.RenameCommand}"/>
+        <control:Button Size="Middle" Header="{DynamicResource MASTERSLIDE_PreserveSlideMaster}" ToolTip="{DynamicResource MASTERSLIDE_PreserveSlideMaster}" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/Preserve16.png" Command="{x:Static helper:CommandHelper.PreserveCommand}"/>
+    </control:RibbonGroupBox>
+    <control:RibbonGroupBox Header="{DynamicResource MASTERSLIDE_MasterLayout}">
+        <control:Button Size="Large" Header="{DynamicResource MASTERSLIDE_MasterLayout}" ToolTip="{DynamicResource MASTERSLIDE_MasterLayout}" LargeIcon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/MasterLayout32.png" Command="{x:Static helper:CommandHelper.MasterLayoutCommand}"/>
+        <control:DropDownButton Size="Large" Command="{x:Static helper:CommandHelper.IsInsertPlaceHolder}" Header="{DynamicResource MASTERSLIDE_InsertPlaceHolder}" ToolTip="{DynamicResource MASTERSLIDE_InsertPlaceHolder}" LargeIcon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/InsertPlaceHolder32.png">
+            <control:Gallery x:Name="placeHolderGallery" VirtualizingStackPanel.VirtualizationMode ="Recycling" MinItemsInRow="1" MaxItemsInRow="1" ItemsSource="{Binding PlaceHolderItem}" ItemTemplate="{StaticResource placeHolderTemplate}">
+                <control:Gallery.ItemContainerStyle>
+                    <Style TargetType="control:GalleryItem">
+                        <Setter Property="Command" Value="{x:Static helper:CommandHelper.InsertPlaceHolderCommand}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+                        <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+                    </Style>
+                </control:Gallery.ItemContainerStyle>
+            </control:Gallery>
+        </control:DropDownButton>
+        <control:CheckBox Size="Middle" Header="{DynamicResource MASTERSLIDE_Title}" ToolTip="{DynamicResource MASTERSLIDE_Title}" Margin="0,5,0,5" IsEnabled="{Binding Source={x:Static Application.Current},Path=SelectedSlide,Converter={StaticResource IsTitleLayoutMasterConverter}}"  IsChecked="{Binding Source={x:Static Application.Current},Path=SelectedSlide.IsTitle,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+        <control:CheckBox Size="Middle" Header="{DynamicResource MASTERSLIDE_Footer}" ToolTip="{DynamicResource MASTERSLIDE_Footer}" Margin="0,5,0,5" IsEnabled="{Binding Source={x:Static Application.Current},Path=SelectedSlide,Converter={StaticResource IsTitleLayoutMasterConverter}}" IsChecked="{Binding Source={x:Static Application.Current},Path=SelectedSlide.IsFooter,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+    </control:RibbonGroupBox>
+    <control:RibbonGroupBox Header="{DynamicResource MASTERSLIDE_EditTheme}">
+        <control:DropDownButton Header="{DynamicResource MASTERSLIDE_Themes}" ToolTip="{DynamicResource MASTERSLIDE_Themes}" Width="70">
+            <control:DropDownButton.LargeIcon>
+                <Border Width="32" Height="32" BorderThickness="1" BorderBrush="Gray">
+                    <ds:CanvasSmallThumbnail  Data="{Binding Source={x:Static Application.Current},Path=SelectedTheme.SlideMasters[0]}" SelectedColor="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors}" SelectedFont="{Binding Source={x:Static Application.Current},Path=SelectedTheme.SelectedFont}" BackgroundStyle="{Binding Source={x:Static Application.Current},Path=SelectedThemeView.Background}" Width="1024" Height="576">
+                        <ds:CanvasSmallThumbnail.RenderTransform>
+                            <ScaleTransform ScaleX="0.03" ScaleY="0.05"/>
+                        </ds:CanvasSmallThumbnail.RenderTransform>
+                    </ds:CanvasSmallThumbnail>
+                </Border>
+            </control:DropDownButton.LargeIcon>
+            <control:Gallery x:Name="themeDesign" GroupBy="TagName" VirtualizingStackPanel.VirtualizationMode ="Recycling" MinItemsInRow="1" MaxItemsInRow="4" ItemsSource="{Binding Source={StaticResource ThemesCollectionCombine}}" ItemTemplate="{StaticResource themeDesignItem}" SelectionChanged="themeDesign_SelectionChanged">
+                <control:Gallery.ItemContainerStyle>
+                    <Style TargetType="control:GalleryItem">
+                        <Setter Property="Command" Value="{x:Static helper:CommandHelper.SelectThemeCommand}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+                        <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+                    </Style>
+                </control:Gallery.ItemContainerStyle>
+            </control:Gallery>
+            <control:DropDownButton.Fotters>
+                <control:MenuItem Header="Browser for themes" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/BrowserThemesIcon16.png" Command="{x:Static helper:CommandHelper.LoadThemeCommand}"/>
+                <control:MenuItem Header="Save current themes" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/SaveThemesIcon16.png" Command="{x:Static helper:CommandHelper.SaveThemeCommand}"/>
+            </control:DropDownButton.Fotters>
+        </control:DropDownButton>
+    </control:RibbonGroupBox>
+    <control:RibbonGroupBox Header="{DynamicResource MASTERSLIDE_Background}">
+        <control:DropDownButton Header="{DynamicResource MASTERSLIDE_Colors}" ToolTip="{DynamicResource MASTERSLIDE_Colors}" Size="Middle" >
+            <control:DropDownButton.Icon>
+                <Border Width="16" Height="16" BorderThickness="1" BorderBrush="Gray">
+                    <WrapPanel Orientation="Horizontal">
+                        <Rectangle Width="7" Height="7" Fill="{Binding Source={x:Static Application.Current}, Path=SelectedTheme.Colors.BackgroundDark1.Color}"/>
+                        <Rectangle Width="7" Height="7" Fill="{Binding Source={x:Static Application.Current}, Path=SelectedTheme.Colors.BackgroundDark2.Color}"/>
+                        <Rectangle Width="7" Height="7" Fill="{Binding Source={x:Static Application.Current}, Path=SelectedTheme.Colors.BackgroundLight1.Color}"/>
+                        <Rectangle Width="7" Height="7" Fill="{Binding Source={x:Static Application.Current}, Path=SelectedTheme.Colors.BackgroundLight2.Color}"/>
+                    </WrapPanel>
+                </Border>
+            </control:DropDownButton.Icon>
+            <control:Gallery GroupBy="Group" UseLayoutRounding="True" VirtualizingStackPanel.VirtualizationMode ="Recycling" SnapsToDevicePixels="True" x:Name="colorGalerry" MaxItemsInRow="1" MinItemsInRow="1" Width="250" ItemWidth="250" 
+                             ItemsSource="{Binding Source={x:Static Application.Current},Path=OfficeColors}" ItemTemplate="{StaticResource ColorsTemplate}"
+                             SelectedValue="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors,UpdateSourceTrigger=PropertyChanged,Mode=OneWay}">
+                <control:Gallery.ItemContainerStyle>
+                    <Style TargetType="control:GalleryItem">
+                        <Setter Property="Command" Value="{x:Static vm:SlideMasterTabControlViewModel.ColorsCommand}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+
+                        <!--<Setter Property="PreviewCommand" Value="{x:Static vm:SlideMasterTabControlViewModel.PreviewColorCommand}"/>
+                        <Setter Property="CancelPreviewCommand" Value="{x:Static vm:SlideMasterTabControlViewModel.PreviewColorCancelCommand}"/>-->
+
+                        <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+                    </Style>
+                </control:Gallery.ItemContainerStyle>
+            </control:Gallery>
+            <control:MenuItem Header="Customize Colors..." Command="{Binding CustomizeColorsCommand}"/>
+            <control:MenuItem Header="Reset Slide Theme Colors..."/>
+        </control:DropDownButton>
+        <control:DropDownButton Header="{DynamicResource MASTERSLIDE_Fonts}" ToolTip="{DynamicResource MASTERSLIDE_Fonts}" Size="Middle" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/Font16.png" Margin="0,5,0,5" Command="{x:Static helper:CommandHelper.DropdownFontsCommand}">
+            <control:Gallery x:Name="fontGallery" MaxItemsInRow="1" VirtualizingStackPanel.VirtualizationMode ="Recycling" MinItemsInRow="1" ItemsSource="{Binding Source={StaticResource DefaultFontsSource}}" ItemTemplate="{StaticResource FontsTemplate}" >
+                <control:Gallery.ItemContainerStyle>
+                    <Style TargetType="control:GalleryItem">
+                        <Setter Property="Command" Value="{x:Static helper:CommandHelper.FontsCommand}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+                        <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+
+                        <!--<Setter Property="PreviewCommand" Value="{x:Static helper:CommandHelper.PreviewFontsCommand}"/>
+                        <Setter Property="CancelPreviewCommand" Value="{x:Static helper:CommandHelper.CancelPreviewFontsCommand}"/>-->
+                    </Style>
+                </control:Gallery.ItemContainerStyle>
+            </control:Gallery>
+        </control:DropDownButton>
+        <control:DropDownButton Header="{DynamicResource MASTERSLIDE_Background}" ToolTip="{DynamicResource MASTERSLIDE_Background}" Size="Middle" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/Background16.png" Margin="0,5,0,5" Command="{x:Static helper:CommandHelper.DropDownBackgroundCommand}">
+            <control:Gallery x:Name="backGroundGallery" MaxItemsInRow="4" VirtualizingStackPanel.VirtualizationMode ="Recycling" MinItemsInRow="1" ItemTemplate="{StaticResource backgroundItem}" ItemsSource="{Binding Backgrounds}">
+                <control:Gallery.ItemContainerStyle>
+                    <Style TargetType="control:GalleryItem">
+                        <Setter Property="Command" Value="{x:Static helper:CommandHelper.BackgroundStyleCommand}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+                        <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+                        <!--<Setter Property="PreviewCommand" Value="{x:Static helper:CommandHelper.PreviewBackgroundCommand}"/>
+                        <Setter Property="CancelPreviewCommand" Value="{x:Static helper:CommandHelper.CancelPreviewBackgroundCommand}"/>-->
+                    </Style>
+                </control:Gallery.ItemContainerStyle>
+            </control:Gallery>
+            <control:DropDownButton.Fotters>
+                <control:MenuItem Header="{DynamicResource MASTERSLIDE_FormatBackground}" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/formatBG16.png" Command="{x:Static helper:CommandHelper.OpenFormatBackgroundCommand}"/>
+            </control:DropDownButton.Fotters>
+        </control:DropDownButton>
+        <control:CheckBox Header="{DynamicResource MASTERSLIDE_HideBackground}" ToolTip="{DynamicResource MASTERSLIDE_HideBackground}"  Margin="3,5,0,5" IsChecked="{Binding Source={x:Static Application.Current},Path=SelectedSlide.IsHideBackground,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+    </control:RibbonGroupBox>
+    <control:RibbonGroupBox Header="{DynamicResource MASTERSLIDE_Close}">
+        <control:Button Size="Large" Header="{DynamicResource MASTERSLIDE_CloseMasterView}" ToolTip="{DynamicResource MASTERSLIDE_CloseMasterView}" LargeIcon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/Close32.png" Command="{x:Static helper:CommandHelper.CloseMasterViewCommand}"/>
+    </control:RibbonGroupBox>
+</control:RibbonTabItem>

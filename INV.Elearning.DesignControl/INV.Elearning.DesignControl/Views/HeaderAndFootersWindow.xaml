@@ -1,0 +1,27 @@
+﻿<control:ElearningWindow x:Class="INV.Elearning.DesignControl.Views.HeaderAndFootersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:control="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INV.Elearning.DesignControl.Views"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        IsInfoButtonEnabled="False"
+        IsIconVisible="False"
+        Title="Header And Footer" Height="250" Width="450">
+    <Border BorderBrush="Black" BorderThickness="0" Margin="20,0,20,5">
+        <StackPanel Orientation="Vertical" >
+            <control:CheckBox x:Name="cbDateTime" Header="Date and Time" Margin="10,10,0,0"/>
+            <control:CheckBox x:Name="cbSlideNumber" Header="Slide Number" Margin="10,10,0,0"/>
+            <control:CheckBox x:Name="cbFooter" Header="Footer" Margin="10,10,0,0"/>
+            <control:TextBox x:Name="txtFooter" Margin="18,10,10,0" IsEnabled="{Binding ElementName=cbFooter,Path=IsChecked,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+        </StackPanel>
+    </Border>
+    <control:ElearningWindow.Fotters>
+        <Button x:Name="applyBtn" Width="80" Height="32" Content="APPLY" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,200,0" Click="applyBtn_Click"/>
+        <Button x:Name="applyAllbtn" Width="80" Height="32" Content="APPLY ALL" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,110,0" Click="applyAllbtn_Click"/>
+        <Button x:Name="cancelBtn" Width="80" Height="32" Content="CANCEL" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" Click="cancelBtn_Click"/>
+    </control:ElearningWindow.Fotters>
+</control:ElearningWindow>

@@ -1,0 +1,36 @@
+﻿<control:DropDownButton x:Class="INV.Elearning.DesignControl.Views.LayoutDropDownButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:INV.Elearning.DesignControl.Views"
+             xmlns:vm="clr-namespace:INV.Elearning.DesignControl.ViewModel"
+             xmlns:control="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"
+             xmlns:view="clr-namespace:INV.Elearning.DesignControl.Views"
+             mc:Ignorable="d" Size="Middle" Header="Layout"  Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/layout.png"
+             d:DesignHeight="300" d:DesignWidth="300" Template="{StaticResource RibbonDropDownButtonControlTemplate}">
+    <control:DropDownButton.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="layoutItemTemplate">
+                <Border Height="57" Width="93" >
+                    <Border Width="85" Height="48" BorderBrush="Gray" BorderThickness="1">
+                        <view:CanvasLayoutThumbnail Data="{Binding}" Width="1024" Height="576" ToolTip="{Binding LayoutName,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"  SelectedColor="{Binding Source={x:Static Application.Current},Path=DocumentControl.SelectedColors}" BackgroundStyle="{Binding Source={x:Static Application.Current},Path=DocumentControl.SelectedTheme.BackgroundStyle}">
+                            <view:CanvasLayoutThumbnail.RenderTransform>
+                                <ScaleTransform ScaleX="0.08" ScaleY="0.08"/>
+                            </view:CanvasLayoutThumbnail.RenderTransform>
+                        </view:CanvasLayoutThumbnail>
+                    </Border>
+                </Border>
+            </DataTemplate>
+        </ResourceDictionary>
+    </control:DropDownButton.Resources>
+    <control:Gallery MaxItemsInRow="5" MinItemsInRow="1" ItemTemplate="{StaticResource layoutItemTemplate}" ItemsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.SlideMasters[0].LayoutMasters}" GroupBy="SlideParent">
+        <control:Gallery.ItemContainerStyle>
+            <Style TargetType="control:GalleryItem">
+                <Setter Property="Command" Value="{x:Static vm:DesignTabControlViewModel.LayoutCommand}"/>
+                <Setter Property="CommandParameter" Value="{Binding}"/>
+                <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+            </Style>
+        </control:Gallery.ItemContainerStyle>
+    </control:Gallery>
+</control:DropDownButton>

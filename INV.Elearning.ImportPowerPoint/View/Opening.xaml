@@ -1,0 +1,14 @@
+﻿<controls:ElearningWindow x:Class="INV.Elearning.ImportPowerPoint.View.Opening"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INV.Elearning.ImportPowerPoint.View"
+        xmlns:controls ="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"
+        mc:Ignorable="d" IsIconVisible="False" IsFotterVisible="False"  IsInfoButtonEnabled="False" ResizeMode="NoResize"
+        Title="{DynamicResource ImportPP_OpeningTitle}" Height="110" Width="400" WindowStartupLocation="CenterScreen" ContentRendered="ElearningWindow_ContentRendered">
+    <Grid>
+        <ProgressBar x:Name="progressbarOpen" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="350" Height="35"/>
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding ElementName=progressbarOpen, Path=Value, StringFormat={}{0}%}"></TextBlock>
+    </Grid>
+</controls:ElearningWindow>

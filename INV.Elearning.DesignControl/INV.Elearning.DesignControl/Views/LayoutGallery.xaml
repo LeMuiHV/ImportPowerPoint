@@ -1,0 +1,32 @@
+﻿<control:Gallery x:Class="INV.Elearning.DesignControl.Views.LayoutGallery"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:INV.Elearning.DesignControl.Views"
+             xmlns:view="clr-namespace:INV.Elearning.DesignControl.Views"
+             xmlns:control="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"
+             xmlns:vm="clr-namespace:INV.Elearning.DesignControl.ViewModel" Template="{StaticResource GalleryControlTemplate}"
+             mc:Ignorable="d" MaxItemsInRow="5" MinItemsInRow="1" ItemsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.SlideMasters[0].LayoutMasters}" GroupBy="SlideParent"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <control:Gallery.ItemTemplate>
+        <DataTemplate>
+            <Border Height="57" Width="93" >
+                <Border Width="85" Height="48" BorderBrush="Gray" BorderThickness="1">
+                    <view:CanvasLayoutThumbnail Data="{Binding MainLayer}" Width="1024" Height="576" DataBackground="{Binding Parent}" ToolTip="{Binding LayoutName,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" IsHideBackground="{Binding IsHideBackground}" SelectedColor="{Binding Source={x:Static Application.Current},Path=DocumentControl.SelectedColors}">
+                        <view:CanvasLayoutThumbnail.RenderTransform>
+                            <ScaleTransform ScaleX="0.08" ScaleY="0.08"/>
+                        </view:CanvasLayoutThumbnail.RenderTransform>
+                    </view:CanvasLayoutThumbnail>
+                </Border>
+            </Border>
+        </DataTemplate>
+    </control:Gallery.ItemTemplate>
+    <control:Gallery.ItemContainerStyle>
+        <Style TargetType="control:GalleryItem">
+            <Setter Property="Command" Value="{x:Static vm:DesignTabControlViewModel.LayoutCommand}"/>
+            <Setter Property="CommandParameter" Value="{Binding}"/>
+            <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+        </Style>
+    </control:Gallery.ItemContainerStyle>
+</control:Gallery>

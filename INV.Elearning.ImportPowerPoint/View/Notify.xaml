@@ -1,0 +1,70 @@
+﻿<controls:ElearningWindow x:Class="INV.Elearning.ImportPowerPoint.View.Notify"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INV.Elearning.ImportPowerPoint.View"
+        mc:Ignorable="d" IsInfoButtonEnabled="False" IsIconVisible="False" ResizeMode="NoResize"
+        xmlns:controls ="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"
+        Title="Notify" Height="300" Width="435" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock  Name="TextTieuChuanSize12" 
+                    Text="Hiệu ứng" 
+                    Foreground="#333333" 
+                    FontFamily="Segoe UI" 
+                    FontSize="12.5" 
+                    Visibility="Hidden"/>
+        <TextBlock VerticalAlignment="Top" 
+                   TextWrapping="Wrap" 
+                   Text="     Do có sự khác biệt giữa thiết kế của hai phần mềm, một số đối tượng sau sẽ được chuyển đổi thành ảnh:" 
+                   Margin="13,15,0,0"
+                   Foreground="{Binding ElementName=TextTieuChuanSize12, Path= Foreground}" 
+                   FontFamily="{Binding ElementName=TextTieuChuanSize12, Path= FontFamily}" 
+                   FontSize="{Binding ElementName=TextTieuChuanSize12, Path= FontSize}" />
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top"
+                   Margin="50,60,0,0"
+                   Text=" - Công thức toán"
+                   Foreground="{Binding ElementName=TextTieuChuanSize12, Path= Foreground}" 
+                   FontFamily="{Binding ElementName=TextTieuChuanSize12, Path= FontFamily}" 
+                   FontSize="{Binding ElementName=TextTieuChuanSize12, Path= FontSize}"/>
+        <TextBlock VerticalAlignment="Top"
+                   Margin="50,80,0,0"
+                   Text=" - SmartArt"
+                   Foreground="{Binding ElementName=TextTieuChuanSize12, Path= Foreground}" 
+                   FontFamily="{Binding ElementName=TextTieuChuanSize12, Path= FontFamily}" 
+                   FontSize="{Binding ElementName=TextTieuChuanSize12, Path= FontSize}"/>
+        <TextBlock VerticalAlignment="Top"
+                   Margin="50,100,0,0"
+                   Text=" - Geometry"
+                   Foreground="{Binding ElementName=TextTieuChuanSize12, Path= Foreground}" 
+                   FontFamily="{Binding ElementName=TextTieuChuanSize12, Path= FontFamily}" 
+                   FontSize="{Binding ElementName=TextTieuChuanSize12, Path= FontSize}"/>
+        <TextBlock VerticalAlignment="Top"
+                   Margin="50,120,0,0"
+                   Text=" - Biểu đồ"
+                   Foreground="{Binding ElementName=TextTieuChuanSize12, Path= Foreground}" 
+                   FontFamily="{Binding ElementName=TextTieuChuanSize12, Path= FontFamily}" 
+                   FontSize="{Binding ElementName=TextTieuChuanSize12, Path= FontSize}"/>
+        <TextBlock VerticalAlignment="Top"
+                   Margin="50,140,0,0"
+                   Text=" - Bảng biểu"
+                   Foreground="{Binding ElementName=TextTieuChuanSize12, Path= Foreground}" 
+                   FontFamily="{Binding ElementName=TextTieuChuanSize12, Path= FontFamily}" 
+                   FontSize="{Binding ElementName=TextTieuChuanSize12, Path= FontSize}"/>
+        <TextBlock VerticalAlignment="Top"
+                   Margin="50,160,0,0"
+                   Text=" - Hiệu ứng: kiểu không chính xác"
+                   Foreground="{Binding ElementName=TextTieuChuanSize12, Path= Foreground}" 
+                   FontFamily="{Binding ElementName=TextTieuChuanSize12, Path= FontFamily}" 
+                   FontSize="{Binding ElementName=TextTieuChuanSize12, Path= FontSize}"/>
+        <TextBlock VerticalAlignment="Top"
+                   Margin="23,197,0,0"
+                   Text="   Bạn nên kiểm tra lại toàn bộ nội dung bài giảng trước khi xuất bản."
+                   Foreground="{Binding ElementName=TextTieuChuanSize12, Path= Foreground}" 
+                   FontFamily="{Binding ElementName=TextTieuChuanSize12, Path= FontFamily}" 
+                   FontSize="{Binding ElementName=TextTieuChuanSize12, Path= FontSize}"/>
+    </Grid>
+    <controls:ElearningWindow.Fotters>
+        <Button Width="50" Height="35" HorizontalAlignment="Center" VerticalAlignment="Center" Content="OK" Click="OK_Click"></Button>
+    </controls:ElearningWindow.Fotters>
+</controls:ElearningWindow>

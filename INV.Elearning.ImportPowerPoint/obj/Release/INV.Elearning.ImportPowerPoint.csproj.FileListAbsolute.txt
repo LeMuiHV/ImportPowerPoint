@@ -1,0 +1,111 @@
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.csprojAssemblyReference.cache
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\Resources\Language\en-us\Language.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\Resources\Language\vn-vi\Language.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Importing.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\ImportPowerPointView.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Notify.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\NotifyOfficeVersion.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Opening.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint_MarkupCompile.cache
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint_MarkupCompile.lref
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.ImportPowerPoint.dll.config
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.ImportPowerPoint.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.ImportPowerPoint.pdb
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearing.Controls.Shapes.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Animations.UI.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Controls.Audio.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Controls.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Controls.Flash.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Core.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.DesignControl.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.EOPC.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.ImageProcess.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Text.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.VideoElementControl.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Charts.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Timeline.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\System.Windows.Interactivity.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.log4net.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.DesignControl.pdb
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\System.Windows.Interactivity.xml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Importing.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\ImportPowerPointView.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Notify.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\NotifyOfficeVersion.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Opening.baml
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.g.resources
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.Properties.Resources.resources
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.csproj.GenerateResource.cache
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.csproj.CoreCompileInputs.cache
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.csproj.CopyComplete
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.dll
+C:\Users\MuiLV\Desktop\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.pdb
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.ImportPowerPoint.dll.config
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.ImportPowerPoint.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.ImportPowerPoint.pdb
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\DocumentFormat.OpenXml.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearing.Controls.Shapes.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Animations.UI.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Controls.Audio.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Controls.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Controls.Flash.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Core.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.DesignControl.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.EOPC.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.ImageProcess.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Text.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.VideoElementControl.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Charts.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Timeline.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\System.Windows.Interactivity.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.log4net.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.Resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\INV.Elearning.DesignControl.pdb
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\DocumentFormat.OpenXml.xml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\System.Windows.Interactivity.xml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\de\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\en\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\es\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\fr\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\it\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\ja\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\ko\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\Resources\Language\en-us\Language.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\Resources\Language\vn-vi\Language.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Importing.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\ImportPowerPointView.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Notify.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\NotifyOfficeVersion.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Opening.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint_MarkupCompile.cache
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint_MarkupCompile.lref
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Importing.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\ImportPowerPointView.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Notify.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\NotifyOfficeVersion.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\View\Opening.baml
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.g.resources
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.Properties.Resources.resources
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.csproj.GenerateResource.cache
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.csproj.CoreCompileInputs.cache
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.csproj.CopyComplete
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.dll
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.pdb
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.csprojAssemblyReference.cache
+E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Release\INV.Elearning.ImportPowerPoint.csproj.ResolveComReference.cache

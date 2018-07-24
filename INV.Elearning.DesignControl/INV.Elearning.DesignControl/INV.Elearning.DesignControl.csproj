@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2F2E53E-81AB-4CA2-80CB-C6CAD9A810D3}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>INV.Elearning.DesignControl</RootNamespace>
+    <AssemblyName>INV.Elearning.DesignControl</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="INV.Elearing.Controls.Shapes">
+      <HintPath>..\..\..\Debug1207\Debug-ex\Debug\INV.Elearing.Controls.Shapes.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Charts">
+      <HintPath>..\..\..\Debug 0207\Debug-06\Debug\INV.Elearning.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Administrator\Downloads\Compressed\Debug-26-5\Debug\INV.Elearning.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Controls.Geometries">
+      <HintPath>..\..\..\Debug1207\Debug-ex\Debug\INV.Elearning.Controls.Geometries.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Elearning 2018\Elearning Product\Debug\INV.Elearning.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.EOPC, Version=1.0.3.8, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Elearning 2018\Elearning Product\Debug\INV.Elearning.EOPC.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.ImageProcess">
+      <HintPath>..\..\..\Debug 0207\Debug-06\Debug\INV.Elearning.ImageProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Resources, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Administrator\Downloads\Compressed\Debug-26-5\Debug\INV.Elearning.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Text, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Debug 1607\Debug-07\Debug\INV.Elearning.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.Timeline">
+      <HintPath>..\..\..\Debug 0707\Debug\Debug\INV.Elearning.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="INV.Elearning.VideoElementControl, Version=1.7.16.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Elearning 2018\Elearning Product\Debug\INV.Elearning.VideoElementControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\WebcamRecorder\WebcamRecorder 230318\WebcamRecorder 1204\WebcamRecorder\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\WebcamRecorder\WebcamRecorder 230318\WebcamRecorder 1204\WebcamRecorder\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adorners\DrawingAdornerBase.cs" />
+    <Compile Include="Adorners\DrawingPlaceHolderAdorner.cs" />
+    <Compile Include="Converters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Converters\BorderTreeViewItemHeightCOnverter.cs" />
+    <Compile Include="Converters\BorderTreeViewItemWidthConverter.cs" />
+    <Compile Include="Converters\GetListLayoutMasterConverter.cs" />
+    <Compile Include="Converters\IsFooterLayoutConverter.cs" />
+    <Compile Include="Converters\IsHideBackgroundConverter.cs" />
+    <Compile Include="Converters\IsTitleLayoutMasterConverter.cs" />
+    <Compile Include="Converters\SelectedThemesConverter.cs" />
+    <Compile Include="Converters\StringToColorBaseConverter.cs" />
+    <Compile Include="Converters\TreeViewFirstNodeConverter.cs" />
+    <Compile Include="Converters\TreeViewFirstNodeHeightConverter.cs" />
+    <Compile Include="Converters\TreeViewFirstNodeWidthConverter.cs" />
+    <Compile Include="Converters\TreeViewItemConverter.cs" />
+    <Compile Include="Converters\TreeViewLineConverter.cs" />
+    <Compile Include="Converters\VariantColorConverter.cs" />
+    <Compile Include="Converters\MuitiCommandParameterConverter.cs" />
+    <Compile Include="Converters\VerticalLineHeightConverter.cs" />
+    <Compile Include="DesignTabControl.xaml.cs">
+      <DependentUpon>DesignTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\CommandHelper.cs" />
+    <Compile Include="Helper\ViewModelBase.cs" />
+    <Compile Include="Models\EPlaceHolder.cs" />
+    <Compile Include="ModuleConnect\PlaceHolderModule.cs" />
+    <Compile Include="RenderImage\RenderThumbnail.cs" />
+    <Compile Include="SlideMasterTabControl.xaml.cs">
+      <DependentUpon>SlideMasterTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeBackground\GenerateThemeShape.cs" />
+    <Compile Include="TreeViewSlideMaster.xaml.cs">
+      <DependentUpon>TreeViewSlideMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UndoRedo\AddLayoutMasterIndexStep.cs" />
+    <Compile Include="UndoRedo\AddLayoutMasterStep.cs" />
+    <Compile Include="UndoRedo\AddSlideMasterStep.cs" />
+    <Compile Include="UndoRedo\BackgroundStylesChangedStep.cs" />
+    <Compile Include="UndoRedo\ColorChangedStep.cs" />
+    <Compile Include="UndoRedo\DeleteLayoutMasterStep.cs" />
+    <Compile Include="UndoRedo\DeleteSlideMasterStep.cs" />
+    <Compile Include="UndoRedo\EthemesSelectedThemeStep.cs" />
+    <Compile Include="UndoRedo\FontsStep.cs" />
+    <Compile Include="UndoRedo\NormalViewModeStep.cs" />
+    <Compile Include="UndoRedo\PlaceHolderStep.cs" />
+    <Compile Include="UndoRedo\SelectedThemeStep.cs" />
+    <Compile Include="UndoRedo\SlideMasterColorChangedStep.cs" />
+    <Compile Include="UndoRedo\SlideMasterEThemesSelectedStep.cs" />
+    <Compile Include="UndoRedo\SlideMasterOfficeStep.cs" />
+    <Compile Include="UndoRedo\SlideMasterThisPresenterStep.cs" />
+    <Compile Include="UndoRedo\SlideMasterViewModeStep.cs" />
+    <Compile Include="UndoRedo\ThisPresenterSlideMasterStep.cs" />
+    <Compile Include="UndoRedo\UpdateLayoutMasterStep.cs" />
+    <Compile Include="ViewModel\DesignTabControlViewModel.cs" />
+    <Compile Include="ViewModel\SlideMasterTabControlViewModel.cs" />
+    <Compile Include="Views\CanvasLayoutThumbnail.cs" />
+    <Compile Include="Views\CanvasSmallThumbnail.cs" />
+    <Compile Include="Views\CanvasThemeNormalViewThumbnail.cs" />
+    <Compile Include="Views\DocumentControlMaster.cs" />
+    <Compile Include="Views\GridTreeView.xaml.cs">
+      <DependentUpon>GridTreeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HeaderAndFootersWindow.xaml.cs">
+      <DependentUpon>HeaderAndFootersWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LayoutDropDownButton.xaml.cs">
+      <DependentUpon>LayoutDropDownButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LayoutGallery.xaml.cs">
+      <DependentUpon>LayoutGallery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LayoutInRibbonGallery.xaml.cs">
+      <DependentUpon>LayoutInRibbonGallery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MasterLayoutConfig.xaml.cs">
+      <DependentUpon>MasterLayoutConfig.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlaceHolder.cs" />
+    <Compile Include="Views\PlaceHolderButton.xaml.cs">
+      <DependentUpon>PlaceHolderButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Views\RenameWindow.xaml.cs">
+      <DependentUpon>RenameWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SlideMasterTreeView.xaml.cs">
+      <DependentUpon>SlideMasterTreeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SplitButtonNewSlide.xaml.cs">
+      <DependentUpon>SplitButtonNewSlide.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ThemeColorWindow.xaml.cs">
+      <DependentUpon>ThemeColorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ThemeFontWindow.xaml.cs">
+      <DependentUpon>ThemeFontWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TreeViewMaster.xaml.cs">
+      <DependentUpon>TreeViewMaster.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DesignTabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Language\en-us\Language.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SlideMasterTabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TreeViewSlideMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GridTreeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HeaderAndFootersWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LayoutDropDownButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LayoutGallery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LayoutInRibbonGallery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MasterLayoutConfig.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlaceHolderButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RenameWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SlideMasterTreeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SplitButtonNewSlide.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ThemeColorWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ThemeFontWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\TreeViewMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Images.Video32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Video32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Picture32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Text32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Chart32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\InsertMasterSlide32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\InsertLayout32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DeleteLayout16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\RenameLayout16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Preserve16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\MasterLayout32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\InsertPlaceHolder32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Theme32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Background16.png" />
+    <Resource Include="Images\Color16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Close32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ContentPlaceHolder32.png" />
+    <Resource Include="Images\PicturePlaceHolder32.png" />
+    <Resource Include="Images\TextPlaceHolder32.png" />
+    <Resource Include="Images\VideoPlaceHolder32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Theme0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ChartPlaceHolder32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BrowserThemesIcon16.png" />
+    <Resource Include="Images\SaveThemesIcon16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ColorsVariantIcon16.png" />
+    <Resource Include="Images\FontsVarianIcon16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Font16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\formatBG16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BackgroundStyle32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\layout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\HeaderAndFooter32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DateTime32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\SlideNumber32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\InsertPlaceHolder16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\NewSlideIcon32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

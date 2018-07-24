@@ -1,0 +1,187 @@
+﻿<control:RibbonTabItem x:Class="INV.Elearning.DesignControl.DesignTabControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:control="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"
+             mc:Ignorable="d"
+             xmlns:vm="clr-namespace:INV.Elearning.DesignControl.ViewModel"
+             xmlns:view="clr-namespace:INV.Elearning.DesignControl.Views"
+             Header="{DynamicResource DESIGNTAB_Header}"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <control:RibbonTabItem.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/INV.Elearning.DesignControl;Component/Language/en-us/Language.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate x:Key="themeItemTemplate">
+                <Border Height="57" Width="93" >
+                    <Border Width="85" Height="48" BorderBrush="Gray" BorderThickness="1">
+                        <view:CanvasThemeNormalViewThumbnail  ToolTip="{Binding Name}" Data="{Binding}" Width="1024" Height="576" SelectedColor="{Binding Colors}" BackgroundStyle="{Binding BackgroundStyle}">
+                            <view:CanvasThemeNormalViewThumbnail.RenderTransform>
+                                <ScaleTransform ScaleX="0.08" ScaleY="0.08"/>
+                            </view:CanvasThemeNormalViewThumbnail.RenderTransform>
+                        </view:CanvasThemeNormalViewThumbnail>
+                        <!--<Image  RenderOptions.BitmapScalingMode="LowQuality" Source="{Binding ThumbnailBitmap, Mode=OneWay}" Stretch="Fill" ToolTip="{Binding Name}"/>-->
+                    </Border>
+                </Border>
+            </DataTemplate>
+            <DataTemplate x:Key="layoutItemTemplate">
+                <Border Height="57" Width="93" >
+                    <Border Width="86" Height="50" BorderBrush="Gray" BorderThickness="1" Padding="1">
+                        <view:CanvasLayoutThumbnail Data="{Binding}" Width="1024" Height="576" ToolTip="{Binding LayoutName,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" SelectedColor="{Binding Source={x:Static Application.Current},Path=DocumentControl.SelectedColors}" BackgroundStyle="{Binding Source={x:Static Application.Current},Path=DocumentControl.SelectedTheme.BackgroundStyle}">
+                            <view:CanvasLayoutThumbnail.RenderTransform>
+                                <ScaleTransform ScaleX="0.08" ScaleY="0.08"/>
+                            </view:CanvasLayoutThumbnail.RenderTransform>
+                        </view:CanvasLayoutThumbnail>
+                        <!--<Image RenderOptions.BitmapScalingMode="LowQuality" Source="{Binding ThumbnailBitmap, Mode=OneWay}" Stretch="Fill" Width="81" Height="44" ToolTip="{Binding LayoutName,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>-->
+                    </Border>
+                </Border>
+            </DataTemplate>
+            <DataTemplate x:Key="ColorsTemplate">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="{Binding BackgroundDark2.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1" Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding BackgroundLight2.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent1.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent2.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent3.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent4.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent5.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <Rectangle Fill="{Binding Accent6.Color}" Width="12" Height="12" Stroke="LightGray" StrokeThickness="1"  Margin="0,0,1,0"/>
+                    <TextBlock Text="{Binding Name}" Margin="10,0,0,0"/>
+                </StackPanel>
+            </DataTemplate>
+            <DataTemplate x:Key="FontsTemplate">
+                <Border Height="60" Padding="0,7">
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Background="White" BorderThickness="1" BorderBrush="#FF616C81" Padding="1" Margin="8,0">
+                            <Border BorderThickness="1" BorderBrush="#FFC3C8D5" Padding="1">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                    <TextBlock Text="A" FontFamily="{Binding MajorFont}" FontSize="16"/>
+                                    <TextBlock Text="a" FontFamily="{Binding MinorFont}" FontSize="16"/>
+                                </StackPanel>
+                            </Border>
+                        </Border>
+                        <StackPanel Orientation="Vertical" Grid.Column="1">
+                            <TextBlock Text="{Binding Name}" FontWeight="DemiBold"/>
+                            <TextBlock Text="{Binding MajorFont}" FontFamily="{Binding MajorFont}" />
+                            <TextBlock Text="{Binding MinorFont}" FontFamily="{Binding MinorFont}" />
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+
+            <DataTemplate x:Key="backgroundItem">
+                <Border Height="57" Width="93" >
+                    <Border Width="85" Height="48" BorderBrush="Gray" BorderThickness="1">
+                        <Rectangle ToolTip="{Binding Name}" Fill="{Binding ColorStyle,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"/>
+                    </Border>
+                </Border>
+            </DataTemplate>
+
+            <CollectionViewSource x:Key="DefaultColorsSource" Source="{Binding Source={x:Static Application.Current}, Path=OfficeColors}"/>
+            <CollectionViewSource x:Key="ThemeFontsSource" Source="{Binding Source={x:Static Application.Current}, Path=OfficeFonts}"/>
+            <CollectionViewSource x:Key="ThemesCollectionSource" Source="{Binding Source={x:Static Application.Current},Path=ThemesCollection}"/>
+            <CollectionViewSource x:Key="LocalThemesCollectionSource" Source="{Binding Source={x:Static Application.Current},Path=LocalThemesCollection}"/>
+
+            <CompositeCollection x:Key="ThemesCollectionCombine">
+                <CollectionContainer Collection="{Binding Source={StaticResource LocalThemesCollectionSource}}"/>
+                <CollectionContainer Collection="{Binding Source={StaticResource ThemesCollectionSource}}"/>
+            </CompositeCollection>
+        </ResourceDictionary>
+    </control:RibbonTabItem.Resources>
+    <control:RibbonGroupBox Header="Themes">
+        <control:InRibbonGallery x:Name="themes" VirtualizingStackPanel.VirtualizationMode ="Recycling"  MaxItemsInRow="5" MinItemsInRow="1" ItemsSource="{Binding Source={StaticResource ThemesCollectionCombine}}" 
+                                 ItemTemplate="{StaticResource themeItemTemplate}"
+                                 SelectionChanged="InRibbonGallery_SelectionChanged"
+                                 GroupBy="TagName">
+            <control:InRibbonGallery.ItemContainerStyle>
+                <Style TargetType="control:GalleryItem">
+                    <Setter Property="Command" Value="{x:Static vm:DesignTabControlViewModel.ThemeCommand}"/>
+                    <Setter Property="CommandParameter" Value="{Binding}"/>
+                    <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+                    <!--<Setter Property="PreviewCommand" Value="{x:Static vm:DesignTabControlViewModel.PreviewThemeCommand}"/>
+                    <Setter Property="CancelPreviewCommand" Value="{x:Static vm:DesignTabControlViewModel.PreviewCancelCommand}"/>-->
+                </Style>
+            </control:InRibbonGallery.ItemContainerStyle>
+            <control:InRibbonGallery.Fotters>
+                <control:MenuItem Header="Browser for themes" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/BrowserThemesIcon16.png" Command="{Binding LoadThemeCommand}"/>
+                <control:MenuItem Header="Save current themes" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/SaveThemesIcon16.png" Command="{Binding SaveThemeCommand}"/>
+            </control:InRibbonGallery.Fotters>
+        </control:InRibbonGallery>
+    </control:RibbonGroupBox>
+
+    <control:RibbonGroupBox Header="Layouts">
+        <view:LayoutInRibbonGallery/>
+    </control:RibbonGroupBox>
+
+    <control:RibbonGroupBox Header="{DynamicResource MASTERSLIDE_Background}">
+        <control:DropDownButton Header="{DynamicResource MASTERSLIDE_Colors}" ToolTip="{DynamicResource MASTERSLIDE_Colors}" Size="Large" Command="{x:Static vm:DesignTabControlViewModel.DropDownColorCommand}">
+            <control:DropDownButton.LargeIcon>
+                <Border Width="32" Height="32" BorderThickness="1" BorderBrush="Gray">
+                    <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Rectangle Width="14" Height="14" Fill="{Binding Source={x:Static Application.Current}, Path=SelectedTheme.Colors.BackgroundDark1.Color}"/>
+                        <Rectangle Width="14" Height="14" Fill="{Binding Source={x:Static Application.Current}, Path=SelectedTheme.Colors.BackgroundDark2.Color}"/>
+                        <Rectangle Width="14" Height="14" Fill="{Binding Source={x:Static Application.Current}, Path=SelectedTheme.Colors.BackgroundLight1.Color}"/>
+                        <Rectangle Width="14" Height="14" Fill="{Binding Source={x:Static Application.Current}, Path=SelectedTheme.Colors.BackgroundLight2.Color}"/>
+                    </WrapPanel>
+                </Border>
+            </control:DropDownButton.LargeIcon>
+            <control:Gallery GroupBy="Group" VirtualizingStackPanel.VirtualizationMode ="Recycling" UseLayoutRounding="True" SnapsToDevicePixels="True" x:Name="colorGalerry" MaxItemsInRow="1" MinItemsInRow="1" Width="250" ItemWidth="250" 
+                             ItemsSource="{Binding Source={x:Static Application.Current},Path=OfficeColors}" ItemTemplate="{StaticResource ColorsTemplate}"
+                             SelectedValue="{Binding Source={x:Static Application.Current},Path=DocumentControl.SelectedTheme.Colors,UpdateSourceTrigger=PropertyChanged,Mode=OneWay}">
+                <control:Gallery.ItemContainerStyle>
+                    <Style TargetType="control:GalleryItem">
+                        <Setter Property="Command" Value="{x:Static vm:DesignTabControlViewModel.ColorsCommand}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+                        <!--<Setter Property="PreviewCommand" Value="{x:Static vm:DesignTabControlViewModel.PreviewColorCommand}"/>
+                        <Setter Property="CancelPreviewCommand" Value="{x:Static vm:DesignTabControlViewModel.CancelPreviewColorCommand}"/>-->
+                        <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+                    </Style>
+                </control:Gallery.ItemContainerStyle>
+            </control:Gallery>
+            <control:MenuItem Header="Customize Colors..." Command="{Binding CustomizeColorsCommand}"/>
+            <control:MenuItem Header="Reset Slide Theme Colors..."/>
+        </control:DropDownButton>
+        <control:DropDownButton Header="{DynamicResource MASTERSLIDE_Fonts}" ToolTip="{DynamicResource MASTERSLIDE_Fonts}" Size="Large" Command="{x:Static vm:DesignTabControlViewModel.DropdownFontsCommand}">
+            <control:DropDownButton.LargeIcon>
+                <Border Width="32" Height="32" BorderThickness="1" BorderBrush="Gray">
+                    <TextBlock Text="A" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontFamily="{Binding Source={x:Static Application.Current},Path=SelectedTheme.SelectedFont.MajorFont,UpdateSourceTrigger=PropertyChanged,Mode=OneWay}"/>
+                </Border>
+            </control:DropDownButton.LargeIcon>
+            <control:Gallery x:Name="fontGallery" VirtualizingStackPanel.VirtualizationMode ="Recycling" Width="220" ItemWidth="220" MaxItemsInRow="1" MinItemsInRow="1" ItemsSource="{Binding Source={x:Static Application.Current},Path=OfficeFonts}" ItemTemplate="{StaticResource FontsTemplate}"  SelectedValue="{Binding Source={x:Static Application.Current},Path=DocumentControl.SelectedTheme.SelectedFont,UpdateSourceTrigger=PropertyChanged,Mode=OneWay}">
+                <control:Gallery.ItemContainerStyle>
+                    <Style TargetType="control:GalleryItem">
+                        <Setter Property="Command" Value="{x:Static vm:DesignTabControlViewModel.FontsCommand}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+                        <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+                        <!--<Setter Property="PreviewCommand" Value="{x:Static vm:DesignTabControlViewModel.PreviewFontsCommand}"/>
+                        <Setter Property="CancelPreviewCommand" Value="{x:Static  vm:DesignTabControlViewModel.CancelPreviewFontsCommand}"/>-->
+                    </Style>
+                </control:Gallery.ItemContainerStyle>
+            </control:Gallery>
+            <control:DropDownButton.Fotters>
+                <control:MenuItem Header="Customize Fonts..." Command="{Binding CustomizeFontsCommand}"/>
+            </control:DropDownButton.Fotters>
+        </control:DropDownButton>
+        <control:DropDownButton Header="{DynamicResource MASTERSLIDE_Background}" ToolTip="{DynamicResource MASTERSLIDE_Background}" Size="Large" LargeIcon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/BackgroundStyle32.png" >
+            <control:Gallery x:Name="backGroundGallery" VirtualizingStackPanel.VirtualizationMode ="Recycling" MaxItemsInRow="4" MinItemsInRow="1" ItemTemplate="{StaticResource backgroundItem}" ItemsSource="{Binding Backgrounds}">
+                <control:Gallery.ItemContainerStyle>
+                    <Style TargetType="control:GalleryItem">
+                        <Setter Property="Command" Value="{x:Static vm:DesignTabControlViewModel.BackgroundStyleCommand}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+                        <Setter Property="Template" Value="{StaticResource GalleryItemControlTemplate}"/>
+                    </Style>
+                </control:Gallery.ItemContainerStyle>
+            </control:Gallery>
+            <control:DropDownButton.Fotters>
+                <control:MenuItem Header="{DynamicResource MASTERSLIDE_FormatBackground}" Icon="pack://application:,,,/INV.Elearning.DesignControl;Component/Images/formatBG16.png"/>
+            </control:DropDownButton.Fotters>
+        </control:DropDownButton>
+
+    </control:RibbonGroupBox>
+</control:RibbonTabItem>

@@ -1,0 +1,539 @@
+﻿<control:ElearningWindow x:Class="INV.Elearning.DesignControl.Views.ThemeColorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:control="clr-namespace:INV.Elearning.Controls;assembly=INV.Elearning.Controls"
+        xmlns:local="clr-namespace:INV.Elearning.DesignControl.Views"
+        xmlns:helper="clr-namespace:INV.Elearning.Core.Helper;assembly=INV.Elearning.Core"
+        IsIconVisible="False" IsInfoButtonEnabled="False" ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Title="{DynamicResource TCW_Title}" Height="600" Width="500" DataContext="{Binding Source={x:Static Application.Current}, Path=SelectedTheme.Colors, Mode=OneTime}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="{DynamicResource TCW_ThemeColors}" Padding="5" Margin="10">
+            <StackPanel>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_dark1}" Content="{DynamicResource TCW_Dark1}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_dark1" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=dark_1, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="dark_1"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.BackgroundDark1, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_light1}" Content="{DynamicResource TCW_Light1}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_light1" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=light_1, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="light_1"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.BackgroundLight1, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_dark2}" Content="{DynamicResource TCW_Dark2}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_dark2" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=dark_2, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="dark_2"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.BackgroundDark2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_light2}" Content="{DynamicResource TCW_Light2}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_light2" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=light_2, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="light_2"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.BackgroundLight2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_Accent1}" Content="{DynamicResource TCW_Accent1}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_Accent1" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True" KeyTip="1">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=accent_1, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="accent_1"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.Accent1, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_Accent2}" Content="{DynamicResource TCW_Accent2}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_Accent2" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True" KeyTip="1">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=accent_2, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="accent_2"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.Accent2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_Accent3}" Content="{DynamicResource TCW_Accent3}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_Accent3" TextSearch.Text="" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True" KeyTip="1">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=accent_3, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="accent_3"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.Accent3, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_Accent4}" Content="{DynamicResource TCW_Accent4}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_Accent4" TextSearch.Text="" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True" KeyTip="1">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=accent_4, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="accent_4"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.Accent4, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_Accent5}" Content="{DynamicResource TCW_Accent5}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_Accent5" TextSearch.Text="" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True" KeyTip="1">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=accent_5, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="accent_5"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.Accent5, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_Accent6}" Content="{DynamicResource TCW_Accent6}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_Accent6" TextSearch.Text="" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True" KeyTip="1">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=accent_6, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="accent_6"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  FontSize="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.Accent6, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_Hyperlink}" Content="{DynamicResource TCW_Hyperlink}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_Hyperlink" TextSearch.Text="" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True" KeyTip="1">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=hyperlink, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="hyperlink"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  FontSize="12"
+                                                  Columns="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.Hyperlink, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                   IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+                <Grid Height="32">
+                    <Label Target="{Binding ElementName=drop_FollowedHyperlink}" Content="{DynamicResource TCW_FollowedHyperlink}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Border HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" VerticalAlignment="Center">
+                        <control:DropDownButton x:Name="drop_FollowedHyperlink" TextSearch.Text="" SizeDefinition="Small" HorizontalContentAlignment="Stretch" HasTriangle="True" KeyTip="1">
+                            <control:DropDownButton.Icon>
+                                <Grid>
+                                    <Rectangle Height="13" Width="13" Stroke="Black" Fill="White" StrokeThickness="0.5" HorizontalAlignment="Center"/>
+                                    <Rectangle Height="12" Width="12" HorizontalAlignment="Center">
+                                        <Rectangle.Fill>
+                                            <SolidColorBrush Color="{Binding ElementName=followedHyperlink, Path=SelectedColor.Color}" />
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </control:DropDownButton.Icon>
+                            <control:ColorGallery Name="followedHyperlink"
+                                                  FontSize="12"
+                                                  ThemeSolidColorsSource="{Binding Source={x:Static Application.Current},Path=SelectedTheme.Colors.SolidColors, Converter={x:Static helper:Converters.SolidsToSolids}}"
+                                                  Mode="ThemeColors"
+                                                  Columns="12"
+                                                  SelectedColor="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.FollowedHyperlink, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged,Converter={x:Static helper:Converters.ESolidToCSolid}}"
+                                                  ThemeColorGridRows="5"
+                                                  IsAutomaticColorButtonVisible="False"
+                                                  IsNoColorButtonVisible="False"
+                                                  IsEyeDropperButtonVisible="False">
+
+                            </control:ColorGallery>
+                        </control:DropDownButton>
+                    </Border>
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="{DynamicResource TCW_Sample}" Grid.Column="1" VerticalAlignment="Top" Padding="10" Margin="0,10,10,10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+                    <StackPanel.Background>
+                        <SolidColorBrush Color="{Binding ElementName=dark_2, Path=SelectedColor.Color}" />
+                    </StackPanel.Background>
+                    <TextBlock Margin="10" TextAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Bold" Text="{DynamicResource TCW_Text}">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{Binding ElementName=light_1, Path=SelectedColor.Color}" />
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Rectangle Width="28" Height="24" StrokeThickness="1.5" RadiusX="1" RadiusY="1" Margin="0,0,-10,0">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+                                <GradientStop Color="{Binding ElementName=accent_1, Path=SelectedColor.Color}" Offset="1"/>
+                                <GradientStop Color="White" Offset="0.5"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                        <Rectangle.Stroke>
+                            <SolidColorBrush Color="{Binding ElementName=accent_1, Path=SelectedColor.Color}" />
+                        </Rectangle.Stroke>
+                    </Rectangle>
+                    <Ellipse Width="24" Height="24" StrokeThickness="1.5" Margin="-20,-15,0,0">
+                        <Ellipse.Stroke>
+                            <SolidColorBrush Color="{Binding ElementName=accent_1, Path=SelectedColor.Color}" />
+                        </Ellipse.Stroke>
+                        <Ellipse.Fill>
+                            <SolidColorBrush Color="{Binding ElementName=light_1, Path=SelectedColor.Color}" />
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <StackPanel Margin="0,10,0,0" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderOptions.EdgeMode="Aliased">
+                        <Rectangle Width="10" Height="10" StrokeThickness="1" Stroke="White" VerticalAlignment="Bottom">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_1, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="20" StrokeThickness="1" Stroke="White" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_2, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="30" StrokeThickness="1" Stroke="White" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_3, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="25" StrokeThickness="1" Stroke="White" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_4, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="15" StrokeThickness="1" Stroke="White" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_5, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="10" StrokeThickness="1" Stroke="White" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_6, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </StackPanel>
+                    <Rectangle RenderOptions.EdgeMode="Aliased" StrokeThickness="1" Fill="White" Stretch="Fill" Width="70" Height="1" Margin="0,-1"/>
+                    <TextBlock Margin="0,10,0,0" Text="{DynamicResource TCW_Hyperlink}" TextDecorations="Underline" TextAlignment="Center">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{Binding ElementName=hyperlink, Path=SelectedColor.Color}" />
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <TextBlock Margin="0,0,0,10" Text="{DynamicResource TCW_Hyperlink}" TextDecorations="Underline" TextAlignment="Center">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{Binding ElementName=followedHyperlink, Path=SelectedColor.Color}" />
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Vertical" VerticalAlignment="Top">
+                    <StackPanel.Background>
+                        <SolidColorBrush Color="{Binding ElementName=light_2, Path=SelectedColor.Color}" />
+                    </StackPanel.Background>
+                    <TextBlock Margin="10" TextAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Bold" Text="{DynamicResource TCW_Text}">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{Binding ElementName=dark_1, Path=SelectedColor.Color}" />
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Rectangle Width="28" Height="24" StrokeThickness="1.5" RadiusX="1" RadiusY="1" Margin="0,0,-10,0">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+                                <GradientStop Color="{Binding ElementName=accent_1, Path=SelectedColor.Color}" Offset="1"/>
+                                <GradientStop Color="White" Offset="0.5"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                        <Rectangle.Stroke>
+                            <SolidColorBrush Color="{Binding ElementName=accent_1, Path=SelectedColor.Color}" />
+                        </Rectangle.Stroke>
+                    </Rectangle>
+                    <Ellipse Width="24" Height="24" StrokeThickness="1.5" Margin="-20,-15,0,0">
+                        <Ellipse.Stroke>
+                            <SolidColorBrush Color="{Binding ElementName=accent_1, Path=SelectedColor.Color}" />
+                        </Ellipse.Stroke>
+                        <Ellipse.Fill>
+                            <SolidColorBrush Color="{Binding ElementName=light_1, Path=SelectedColor.Color}" />
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <StackPanel Margin="0,10,0,0" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderOptions.EdgeMode="Aliased">
+                        <Rectangle Width="10" Height="10" StrokeThickness="1" Stroke="Black" VerticalAlignment="Bottom">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_1, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="20" StrokeThickness="1" Stroke="Black" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_2, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="30" StrokeThickness="1" Stroke="Black" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_3, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="25" StrokeThickness="1" Stroke="Black" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_4, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="15" StrokeThickness="1" Stroke="Black" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_5, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Rectangle Width="10" Height="10" StrokeThickness="1" Stroke="Black" VerticalAlignment="Bottom" Margin="-1,0,0,0">
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding ElementName=accent_6, Path=SelectedColor.Color}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </StackPanel>
+                    <Rectangle RenderOptions.EdgeMode="Aliased" StrokeThickness="1" Fill="Black" Stretch="Fill" Width="70" Height="1" Margin="0,-1"/>
+                    <TextBlock Margin="0,10,0,0" Text="{DynamicResource TCW_Hyperlink}" TextDecorations="Underline" TextAlignment="Center">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{Binding ElementName=hyperlink, Path=SelectedColor.Color}" />
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <TextBlock Margin="0,0,0,10" Text="{DynamicResource TCW_Hyperlink}" TextDecorations="Underline" TextAlignment="Center">
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{Binding ElementName=followedHyperlink, Path=SelectedColor.Color}" />
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <Grid Grid.Row="1" Margin="5" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Target="{Binding ElementName=txtName}" Content="{DynamicResource TCW_Name}" VerticalAlignment="Center"/>
+            <TextBox Grid.Column="1" x:Name="txtName" Padding="2" VerticalAlignment="Center" BorderBrush="Gray" Margin="5" Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:ThemeColorWindow}, Path=Colors.Name, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+    </Grid>
+    <control:ElearningWindow.Fotters>
+        <Button Content="{DynamicResource TCW_Reset}" Width="80" Height="32" HorizontalAlignment="Left" Margin="20,0" Command="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=ResetCommand}"/>
+        <Button Content="{DynamicResource TCW_Save}" Width="80" Height="32" HorizontalAlignment="Right" Margin="120,0" Command="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=SaveCommand}"/>
+        <Button Content="{DynamicResource TCW_Cancel}" Width="80" Height="32" HorizontalAlignment="Right" Margin="20,0" Command="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=CancelCommand}"/>
+    </control:ElearningWindow.Fotters>
+</control:ElearningWindow>

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\Elearning 2018\Import PowerPoint\INV.Elearning.ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Debug\
+E:\OnlineSource\ImportPowerPoint\INV.Elearning.ImportPowerPoint\obj\Debug\
 INV.Elearning.ImportPowerPoint
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 7-1001561668
 13833963494
 22-69893242
-32955317291
+32681511420
 Resources\Language\en-us\Language.xaml;Resources\Language\vn-vi\Language.xaml;View\Importing.xaml;View\ImportPowerPointView.xaml;View\Notify.xaml;View\NotifyOfficeVersion.xaml;View\Opening.xaml;
 
-False
+True
 
